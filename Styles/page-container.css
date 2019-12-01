@@ -1,0 +1,21 @@
+/* paige container styles */
+.paige-container{
+    display: flex;
+    justify-content: center;
+}
+
+.paige-container > .content-wrapper{
+    width: 1000px;
+}
+
+.paige-container > .content-wrapper #chef{
+    width: 350px;
+    margin:23px 40px 20px 0px;
+    float: left;
+    border: 1px solid #cea135;
+}
+
+.paige-container > .content-wrapper p{
+    letter-spacing: 1px;
+    line-height: 30px;
+}
